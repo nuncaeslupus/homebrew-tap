@@ -1,10 +1,10 @@
 # Template for Casks/nacho-viewer.rb in nuncaeslupus/homebrew-tap (S-4 T8).
-# channels.yml fills 0.1.1, 1a84702a39adbbc3cc78b9c6fbeb47eedce8ddfb17359bddc15fa9789db61548 and Nacho.Viewer_0.1.1_universal.dmg (the Release asset's name) for each release.
+# channels.yml fills 0.1.2, f780f585e20ab813aab46426e2e046cf81d2dadfe431c5241fb04710a2f93474 and Nacho.Viewer_0.1.2_universal.dmg (the Release asset's name) for each release.
 cask "nacho-viewer" do
-  version "0.1.1"
-  sha256 "1a84702a39adbbc3cc78b9c6fbeb47eedce8ddfb17359bddc15fa9789db61548"
+  version "0.1.2"
+  sha256 "f780f585e20ab813aab46426e2e046cf81d2dadfe431c5241fb04710a2f93474"
 
-  url "https://github.com/nuncaeslupus/nacho-viewer/releases/download/v#{version}/Nacho.Viewer_0.1.1_universal.dmg"
+  url "https://github.com/nuncaeslupus/nacho-viewer/releases/download/v#{version}/Nacho.Viewer_0.1.2_universal.dmg"
   name "Nacho Viewer"
   desc "Markdown viewer"
   homepage "https://github.com/nuncaeslupus/nacho-viewer"
