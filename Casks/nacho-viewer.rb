@@ -1,10 +1,10 @@
 # Template for Casks/nacho-viewer.rb in nuncaeslupus/homebrew-tap (S-4 T8).
-# channels.yml fills 0.1.2, f780f585e20ab813aab46426e2e046cf81d2dadfe431c5241fb04710a2f93474 and Nacho.Viewer_0.1.2_universal.dmg (the Release asset's name) for each release.
+# channels.yml fills 0.1.3, be0215d471814b9f7e8329d1d2c38cce3e527ff09c89d7cf66af8711a7ed1ac6 and Nacho.Viewer_0.1.3_universal.dmg (the Release asset's name) for each release.
 cask "nacho-viewer" do
-  version "0.1.2"
-  sha256 "f780f585e20ab813aab46426e2e046cf81d2dadfe431c5241fb04710a2f93474"
+  version "0.1.3"
+  sha256 "be0215d471814b9f7e8329d1d2c38cce3e527ff09c89d7cf66af8711a7ed1ac6"
 
-  url "https://github.com/nuncaeslupus/nacho-viewer/releases/download/v#{version}/Nacho.Viewer_0.1.2_universal.dmg"
+  url "https://github.com/nuncaeslupus/nacho-viewer/releases/download/v#{version}/Nacho.Viewer_0.1.3_universal.dmg"
   name "Nacho Viewer"
   desc "Markdown viewer"
   homepage "https://github.com/nuncaeslupus/nacho-viewer"
@@ -16,6 +16,7 @@ cask "nacho-viewer" do
 
   zap trash: [
     "~/Library/Application Support/io.github.nuncaeslupus.NachoViewer",
+    "~/Library/Application Support/nacho-viewer",
     "~/Library/Caches/io.github.nuncaeslupus.NachoViewer",
     "~/Library/WebKit/io.github.nuncaeslupus.NachoViewer",
   ]
